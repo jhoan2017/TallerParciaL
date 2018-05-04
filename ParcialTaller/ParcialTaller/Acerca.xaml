@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ParcialTaller.Acerca">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#F2F2F2">
+            <Label 
+                FontSize="Micro" TextColor="Teal" Text="Desarrollado por:"
+                
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+
+            <Label 
+                FontSize="Micro" TextColor="Teal" Text="DANNY BURBANO - JHOANN BOTINA"
+                
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+
+            <Label 
+                FontSize="Micro" TextColor="Teal" Text="IUCESMAG:"
+                
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+
+            <Label 
+                FontSize="Micro" TextColor="Teal" Text="Profesor: Ing. Joan Carlos Ayala Benavides"
+                
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

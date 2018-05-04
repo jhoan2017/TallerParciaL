@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ParcialTaller.Master"
+             Title="Inicio">
+
+
+    <StackLayout 
+        Orientation="Vertical"
+        VerticalOptions="CenterAndExpand"
+        HorizontalOptions="Center"
+        Margin="10"
+         WidthRequest="500"
+        >
+        
+        <StackLayout Orientation="Vertical"
+                     VerticalOptions="Center"
+                     Margin="5"
+                     Spacing="10">
+        
+
+            <Button FontSize="Micro" 
+                    HeightRequest="40" 
+                    Text="Ver mis Compras" 
+                    x:Name="btnCompra" 
+                    
+                    TextColor="Teal"/>
+            <Button FontSize="Micro" 
+                    HeightRequest="40" 
+                    Text="Listar Usuarios" 
+                    Clicked="ButtonListar" 
+                    x:Name="btnUsuario" 
+                   
+                    TextColor="Teal"/>
+            <Button FontSize="Micro" 
+                    HeightRequest="40" 
+                    Text="Acerca de..." 
+                    Clicked="ButtonAcercaDe" 
+                    x:Name="btnAcerca" 
+                    TextColor="Teal"/>
+
+        </StackLayout>
+
+
+
+    </StackLayout>
+
+
+
+
+</ContentPage>

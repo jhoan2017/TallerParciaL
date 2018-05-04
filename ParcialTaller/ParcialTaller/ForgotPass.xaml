@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ParcialTaller.ForgotPass">
+    <ContentPage.Content>
+        <StackLayout 
+        Orientation="Vertical"
+        VerticalOptions="CenterAndExpand"
+        HorizontalOptions="Center"
+        Margin="5"
+         WidthRequest="300"
+        >
+            <Label Text="FORGOT PASSWORD" HorizontalOptions="Center" FontSize="Large" FontAttributes="Bold"/>
+            <StackLayout Orientation="Horizontal"
+                     VerticalOptions="Start"
+                    
+                     HorizontalOptions="Center">
+                <Image Source="http://www.dentalalfa.cl/images/System/icon/login/recuperate.png" 
+                   WidthRequest="100"/>
+            </StackLayout>
+            <ScrollView>
+                <StackLayout Orientation="Vertical"
+                         VerticalOptions="Center"
+                         Margin="5"
+                         Spacing="10">
+
+
+                    <Label FontSize="Micro" TextColor="Teal" Text="E-mail"/>
+                    <Entry FontSize="Micro" TextColor="Black" Placeholder="" x:Name="enName" BackgroundColor="#FFFFFF"></Entry>
+
+
+                    <Button FontSize="Micro" 
+                    HeightRequest="40" 
+                    Text="RESET PASSWORD" 
+                    x:Name="btnRes" 
+                    Clicked="ButtonConfirmacion" 
+                    TextColor="Teal"/>
+
+
+
+
+                </StackLayout>
+            </ScrollView>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

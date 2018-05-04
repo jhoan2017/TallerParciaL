@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ParcialTaller.Listar">
+    <StackLayout Orientation="Vertical" Margin="10,30,10,10">
+
+        <ListView HorizontalOptions="Center" VerticalOptions="Start" x:Name="lst">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal">
+
+                            <Label TextColor="Teal" Text="{Binding codigo}"/>
+                            <Label TextColor="Teal" Text="{Binding nombre}"/>
+                            <Label TextColor="Teal" Text="{Binding correo}"/>
+
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+        <Button Text="Listar" TextColor="Teal" FontSize="Micro" Clicked="btn1_click" VerticalOptions="Start" HorizontalOptions="Center" WidthRequest="300"/>
+        
+    </StackLayout>
+
+</ContentPage>

@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ParcialTaller.Detail">
+    <ScrollView BackgroundColor="#F2F2F2">
+        <StackLayout Orientation="Vertical" Padding="30">
+        <StackLayout Orientation="Vertical">
+                <Image Source="https://cuyets.files.wordpress.com/2013/06/logo-cuy.png" Margin="0,0,0,0"/>
+        </StackLayout>
+           
+
+            <StackLayout Orientation="Horizontal" VerticalOptions="Start" HorizontalOptions="Start" Margin="0,0,0,0" >
+
+            <Image Source="http://pluspng.com/img-png/png-lupa-lupa-em-png-395.png" Margin="0,0,0,0" WidthRequest="30"/>
+            <Entry Placeholder="Buscar productos" AbsoluteLayout.LayoutFlags="PositionProportional" Margin="0,0,10,0" />
+                
+                
+                
+            </StackLayout>
+           
+                <StackLayout Orientation="Horizontal" VerticalOptions="Start" HorizontalOptions="Start" Margin="0,0,0,0" >
+           
+                <StackLayout Orientation="Vertical" VerticalOptions="Start" HorizontalOptions="Start" Margin="10,10,10,10" >
+
+                <Label TextColor="Teal" Text="Cuarto de Cuy" FontSize="20" HorizontalOptions="Start" VerticalOptions="Start" />
+                <Label FontAttributes="Italic" Text="Con cuy asado, papa, crispetas y aji" FontSize="15" HorizontalOptions="Start" VerticalOptions="Start" />
+                <Image Source="https://images.emojiterra.com/google/android-nougat/128px/1f44d.png" HorizontalOptions="Start" VerticalOptions="Start" Margin="0,0,0,0" WidthRequest="30"/>
+
+            </StackLayout>
+
+            <StackLayout Orientation="Vertical" VerticalOptions="Start" HorizontalOptions="Start" Margin="100,10,10,10" >
+
+                <Label Text="$11.200" FontSize="20" HorizontalOptions="Start" VerticalOptions="Center" />
+
+                <StackLayout Orientation="Horizontal" VerticalOptions="Start" HorizontalOptions="Start" Margin="10,10,10,10" >
+
+                    <Image Source="https://images.emojiterra.com/twitter/512px/1f6d2.png" HorizontalOptions="Start" VerticalOptions="Start" Margin="0,0,0,0" WidthRequest="30"/>
+                    <Image Source="http://icons.iconarchive.com/icons/uiconstock/socialmedia/128/Netvibes-icon.png" HorizontalOptions="Start" VerticalOptions="Start" Margin="0,0,0,0" WidthRequest="30"/>
+
+                </StackLayout>
+
+            </StackLayout>
+
+                </StackLayout>
+        <StackLayout Orientation="Horizontal" VerticalOptions="Start" HorizontalOptions="Start" Margin="10,10,10,10" >
+
+            <StackLayout Orientation="Vertical" VerticalOptions="Start" HorizontalOptions="Start" Margin="10,10,10,10" >
+
+                <Label TextColor="Teal" Text="Medio Cuy" FontSize="20" HorizontalOptions="Start" VerticalOptions="Start" />
+                <Label FontAttributes="Italic" Text="Con cuy asado, papa, crispetas y aji" FontSize="15" HorizontalOptions="Start" VerticalOptions="Start" />
+                <Image Source="https://images.emojiterra.com/google/android-nougat/128px/1f44d.png" HorizontalOptions="Start" VerticalOptions="Start" Margin="0,0,0,0" WidthRequest="30"/>
+
+            </StackLayout>
+
+            <StackLayout Orientation="Vertical" VerticalOptions="Start" HorizontalOptions="Start" Margin="100,10,10,10" >
+
+                <Label Text="$21.200" FontSize="20" HorizontalOptions="Start" VerticalOptions="Center" />
+
+                <StackLayout Orientation="Horizontal" VerticalOptions="Start" HorizontalOptions="Start" Margin="10,10,10,10" >
+
+                    <Image Source="https://images.emojiterra.com/twitter/512px/1f6d2.png" HorizontalOptions="Start" VerticalOptions="Start" Margin="0,0,0,0" WidthRequest="30"/>
+                    <Image Source="http://icons.iconarchive.com/icons/uiconstock/socialmedia/128/Netvibes-icon.png" HorizontalOptions="Start" VerticalOptions="Start" Margin="0,0,0,0" WidthRequest="30"/>
+
+                </StackLayout>
+
+            </StackLayout>
+
+        </StackLayout>
+        <StackLayout Orientation="Horizontal" VerticalOptions="Start" HorizontalOptions="Start" Margin="10,10,10,10" >
+
+            <StackLayout Orientation="Vertical" VerticalOptions="Start" HorizontalOptions="Start" Margin="10,10,10,10" >
+
+                <Label TextColor="Teal" Text="Cuy Entero" FontSize="20" HorizontalOptions="Start" VerticalOptions="Start" />
+                <Label FontAttributes="Italic" Text="Con cuy asado, papa, crispetas y aji" FontSize="15" HorizontalOptions="Start" VerticalOptions="Start" />
+                <Image Source="https://images.emojiterra.com/google/android-nougat/128px/1f44d.png" HorizontalOptions="Start" VerticalOptions="Start" Margin="0,0,0,0" WidthRequest="30"/>
+
+            </StackLayout>
+
+            <StackLayout Orientation="Vertical" VerticalOptions="Start" HorizontalOptions="Start" Margin="100,10,10,10" >
+
+                <Label Text="$42.000" FontSize="20" HorizontalOptions="Start" VerticalOptions="Center" />
+
+                <StackLayout Orientation="Horizontal" VerticalOptions="Start" HorizontalOptions="Start" Margin="10,10,10,10" >
+
+                    <Image Source="https://images.emojiterra.com/twitter/512px/1f6d2.png" HorizontalOptions="Start" VerticalOptions="Start" Margin="0,0,0,0" WidthRequest="30"/>
+                    <Image Source="http://icons.iconarchive.com/icons/uiconstock/socialmedia/128/Netvibes-icon.png" HorizontalOptions="Start" VerticalOptions="Start" Margin="0,0,0,0" WidthRequest="30"/>
+
+                </StackLayout>
+
+            </StackLayout>
+
+        </StackLayout>
+            
+        <StackLayout Orientation="Horizontal" VerticalOptions="Start" HorizontalOptions="Start" Margin="10,10,10,10" >
+
+            <StackLayout Orientation="Vertical" VerticalOptions="Start" HorizontalOptions="Start" Margin="10,10,10,10" >
+
+                <Label TextColor="Teal" Text="Mixto con 1/4 Cuy" FontSize="20" HorizontalOptions="Start" VerticalOptions="Start" />
+                <Label FontAttributes="Italic" Text="Con cuy asado, papa, crispetas y aji" FontSize="15" HorizontalOptions="Start" VerticalOptions="Start" />
+                <Image Source="https://images.emojiterra.com/google/android-nougat/128px/1f44d.png" HorizontalOptions="Start" VerticalOptions="Start" Margin="0,0,0,0" WidthRequest="30"/>
+
+            </StackLayout>
+
+            <StackLayout Orientation="Vertical" VerticalOptions="Start" HorizontalOptions="Start" Margin="100,10,10,10">
+
+                <Label Text="$22.000" FontSize="20" HorizontalOptions="Start" VerticalOptions="Center" />
+
+                <StackLayout Orientation="Horizontal" VerticalOptions="Start" HorizontalOptions="Start" Margin="10,10,10,10" >
+
+                    <Image Source="https://images.emojiterra.com/twitter/512px/1f6d2.png" HorizontalOptions="Start" VerticalOptions="Start" Margin="0,0,0,0" WidthRequest="30"/>
+                    <Image Source="http://icons.iconarchive.com/icons/uiconstock/socialmedia/128/Netvibes-icon.png" HorizontalOptions="Start" VerticalOptions="Start" Margin="0,0,0,0" WidthRequest="30"/>
+
+                </StackLayout>
+        
+            </StackLayout>
+
+            
+        </StackLayout>
+        <Image Source="https://d1qb2nb5cznatu.cloudfront.net/startups/i/33021-89383534024e9f0dfe66e862b50cdae1-medium_jpg.jpg" HorizontalOptions="Center" VerticalOptions="End" Margin="0,0,0,0" WidthRequest="30"/>
+        
+
+    </StackLayout>
+    </ScrollView>
+   
+
+</ContentPage>

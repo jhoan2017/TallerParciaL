@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:ParcialTaller"
+             x:Class="ParcialTaller.MainPage"
+           
+>
+
+    <StackLayout 
+        Orientation="Vertical"
+        VerticalOptions="CenterAndExpand"
+        HorizontalOptions="Center"
+        Margin="10"
+         WidthRequest="500"
+        >
+        <StackLayout Orientation="Horizontal"
+                     VerticalOptions="Start"
+                     Margin="5"
+                     Spacing="5"
+                     HorizontalOptions="Center">
+            <Image Source="http://www.free-icons-download.net/images/login-icon-39414.png" 
+                   WidthRequest="80"/>
+        </StackLayout>
+        <StackLayout Orientation="Vertical"
+                     VerticalOptions="Center"
+                     Margin="5"
+                     Spacing="10">
+            <Label FontAttributes="Italic" FontSize="Micro" TextColor="Teal" Text ="USUARIO"/>
+            <Entry FontSize="Micro" TextColor="Black" Placeholder="" x:Name="txtuser" BackgroundColor="#DFDDDD"></Entry>
+            <Label FontAttributes="Italic" FontSize="Micro" TextColor="Teal" Text="CONTRASEÑA"/>
+            <Entry FontSize="Micro" TextColor="Black" Placeholder="" IsPassword="True" x:Name="txtpass" BackgroundColor="#DFDDDD" ></Entry>
+
+            <Button FontSize="Micro" 
+                    HeightRequest="40" 
+                    Text="Ingresar" 
+                    x:Name="btnLogin" 
+                    Clicked="ButtonRegistro" 
+                    TextColor="Teal"/>
+            <Button FontSize="Micro" 
+                    HeightRequest="40" 
+                    Text="Olvide mi Contraseña" 
+                    x:Name="btnContraseña" 
+                    Clicked="ButtonOlvide" 
+                    TextColor="Teal"/>
+            <Button FontSize="Micro" 
+                    HeightRequest="40" 
+                    Text="Registrate" 
+                    x:Name="btnRegistrate" 
+                    Clicked="ButtonRegistrar" 
+                    TextColor="Teal"/>
+
+        </StackLayout>
+
+       
+
+        <StackLayout Orientation="Horizontal" 
+                     VerticalOptions="End"
+                     HorizontalOptions="Center"
+                     Margin="10"
+                     Spacing="20">
+            <Image Source="http://cjalacant.org/wp-content/uploads/ICONCRAZE-COM-Facebook-Icon-PNG.png" WidthRequest="50"/>
+            <Image Source="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Google%2B_icon.svg/1200px-Google%2B_icon.svg.png" WidthRequest="50"/>
+            <Image Source="http://files.softicons.com/download/social-media-icons/clean-simple-social-icons-by-creative-nerds/png/256x256/Twitter.png" WidthRequest="50"/>
+        </StackLayout>
+
+
+    </StackLayout>
+
+</ContentPage>
